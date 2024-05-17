@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+color palette : 
+
+    #232931
+    #393E46
+    #4ECCA3
+    #EEEEEE
