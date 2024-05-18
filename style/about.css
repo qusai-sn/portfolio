@@ -1,0 +1,40 @@
+/* About Me Section */
+.about-me-section {
+    padding: 4rem 2rem;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.about-me-section .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-me-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image {
+    flex: 0 0 30%; /* Adjust as needed */
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 50%; /* For a circular profile image */
+}
+
+.bio {
+    flex: 0 0 60%; /* Adjust as needed */
+}
+
+.bio p {
+    margin-bottom: 1rem;
+}
