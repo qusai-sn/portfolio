@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/tech-stack.css"> 
+    <link rel="stylesheet" href="style/main.css"> 
+     
     <title>My Portfolio</title>
      
     
@@ -20,16 +23,16 @@
         <nav >
             <div class="logo">
                 <a href="#">
-                    <img src="images/monochrome_light.png" alt="logo">
+                    <img class="logo-img" src="images/monochrome_light.png" alt="logo">
                 </a>
             </div>
 
-            <ul class="nav-links">
-                <li class="link"><a href="#">Home</a></li>
-                <li class="link"><a href="#">Projects</a></li>
-                <li class="link"><a href="#">about me</a></li>
-                <li class="link"><a href="#">experience</a></li>
-                <li class="link"><a href="#">skills</a></li>
+            <ul class="nav-list">
+                <li class="nav-items"><a href="#">Home</a></li>
+                <li class="nav-items"><a href="#">Projects</a></li>
+                <li class="nav-items"><a href="#">about me</a></li>
+                <li class="nav-items"><a href="#">experience</a></li>
+                <li class="nav-items"><a href="#">skills</a></li>
             </ul>
             
             <button class="btn"> Download resume</button>
@@ -53,7 +56,62 @@
         </header>
 
     </section>
+    
+    <section id="tech-stack" class="tech-stack-section">
+        <div class="container">
+            <h2>My Tech Stack</h2>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>Operating Systems</h3>
+                    <ul>
+                        <li>Linux</li>
+                        <li>Kali Linux</li>
+                        <li>Ubuntu</li>
+                        <li>Tails</li>
+                        <li>Windows</li>
+                        <li>macOS</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Dart</li>
+                        <li>C#</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
 
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Frameworks and Libraries</h3>
+                    <ul>
+                        <li>Flutter (Dart)</li>
+                        <li>Windows Forms (C#)</li>
+                        <li>Web Scraping (Python)</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>Oracle</li>
+                        <li>MySQL</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
 </body>
