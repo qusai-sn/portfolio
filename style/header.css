@@ -177,6 +177,7 @@ nav {
     .logo {
         max-width: 50px;  
         min-width: 30px;  
+        margin: 10px;
     }
 
     .header-container {
@@ -196,7 +197,8 @@ nav {
     }
 
     .header-content p {
-        margin-bottom: 1rem;  
+        margin-bottom: 1rem; 
+        
     }
 
     .image img {
@@ -208,5 +210,11 @@ nav {
     }
     .btn {
         margin-bottom: 15px;
+        width: 100px;
+        
+    }
+    .btn-txt {
+        font-size: small;
+        
     }
 }
