@@ -38,3 +38,38 @@
 .bio p {
     margin-bottom: 1rem;
 }
+
+/* Media Query for Tablet Size (768px) */
+@media only screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column; 
+        align-items: center;  
+    }
+
+    .profile-image,
+    .bio {
+        flex: 1 1 100%;  
+        margin-bottom: 2rem; 
+    }
+}
+
+/* Media Query for Mobile Size (425px) */
+@media only screen and (max-width: 425px) {
+    .about-me-section {
+        padding: 2rem 1rem;  
+    }
+
+    .about-me-section h2 {
+        font-size: 2rem;  
+    }
+    .profile-image img {
+        width: 70%;
+        border-radius: 50%;  
+    }
+    .profile-image {
+        text-align: center;
+    }
+    .about-me-section p { 
+        padding: 15px;
+    }
+}

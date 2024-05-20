@@ -32,8 +32,16 @@
 .timeline-item {
     position: relative;
     margin: 2rem 0;
+    transition: transform 0.3s ease; 
 }
 
+.timeline-item:hover {
+    transform: translateY(-30px);  
+}
+
+ 
+
+ 
 .timeline-item::after {
     content: '';
     display: table;
@@ -67,6 +75,8 @@
 .timeline-item:nth-child(even) .timeline-content {
     left: 55%;
 }
+
+
 
 .timeline-item h3 {
     margin-top: 0;
@@ -103,3 +113,63 @@
 .divider path {
     fill: #393E46;  
 }
+
+
+
+/* Media Query for Tablet and Mobile Size */
+@media only screen and (max-width: 768px) {
+    .experience-section, .education-section {
+        padding: 2rem;  
+    }
+
+    .experience-section h2, .education-section h2 {
+        font-size: 2rem; 
+        margin-bottom: 1.5rem; 
+    }
+
+    .timeline {
+        padding: 0 1rem;  
+    }
+
+    .timeline::after {
+        left: 1.5rem;  
+        margin-left: 0; 
+    }
+
+    .timeline-item {
+        margin: 1.5rem 0;  
+    }
+
+    .timeline-item .timeline-icon {
+        top: 10px;  
+        width: 20px; 
+        height: 20px;  
+        margin-left: -10px;  
+    }
+
+    .timeline-item .timeline-content {
+        width: 100%; 
+        left: 0; 
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content {
+        left: 0;  
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+        left: 0;  
+    }
+
+    .timeline-item h3 {
+        font-size: 1.2rem;  
+    }
+
+    .timeline-item span {
+        font-size: 0.9rem;  
+    }
+}
+
+
+ 
+
+ 
