@@ -68,3 +68,11 @@ i {
     margin-right: 12px;
     /* margin-bottom: 10px; */
 }
+
+.header-icons {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+ }
