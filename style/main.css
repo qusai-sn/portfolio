@@ -62,3 +62,9 @@ body {
 .social-link:hover {
     color: #4ECCA3;
 }
+
+i {
+    font-size: 30px;
+    margin-right: 12px;
+    /* margin-bottom: 10px; */
+}

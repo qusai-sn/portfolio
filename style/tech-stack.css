@@ -58,6 +58,7 @@
 .tech-category h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .tech-category ul {
@@ -67,4 +68,5 @@
 
 .tech-category li {
     margin-bottom: 0.5rem;
+    font-size: 22px;
 }
